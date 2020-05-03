@@ -1,0 +1,66 @@
+*{
+	font-size:14px;
+}
+div[class="row text-white"]{
+	background-color: black;
+
+}
+
+a[ class*=pl-4] {
+	font-size:12px;
+}
+
+div #SocialNetworks [src$=".png"]{
+	width: 20px;
+}
+
+div [placeholder="Search"] {
+	height: 40px;
+	border:solid 1px grey;
+	background-color: transparent;
+	background-image: url("images\search.png");
+	background-repeat: no-repeat;
+	background-position: 90%;
+}
+
+div [class="card-title"] {
+	border:solid white 1px;
+	width: 90px;
+	padding:5px;
+}
+#Entertainment{
+	border: solid black 1px;
+	border-left: solid magenta 5px;
+	
+
+}
+#Entertainment [class*="mr-4 font-weight-bold"] {
+	color:magenta;
+	font-size: 20px;
+}
+
+
+#Business{
+	border: solid black 1px;
+	border-left: solid green 5px;
+}
+
+#Business [class*="mr-4 font-weight-bold"] {
+	color: green;
+	font-size: 20px;
+}
+
+#Travel{
+	border: solid black 1px;
+	border-left: solid orange 5px;
+	
+
+}
+#Travel [class*="mr-4 font-weight-bold"] {
+	color: orange;
+	font-size:20px;
+}
+div [class*="Prominent"] {
+	border: solid black 1px;
+	border-left: solid black 5px;
+}
