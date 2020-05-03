@@ -15,12 +15,14 @@ div #SocialNetworks [src$=".png"]{
 }
 
 div [placeholder="Search"] {
-	height: 40px;
-	border:solid 1px grey;
-	background-color: transparent;
-	background-image: url("images\search.png");
-	background-repeat: no-repeat;
-	background-position: 90%;
+	border-radius:30px;
+    border:solid grey 1px;
+    width: 150px;
+	height: 30px;
+	background-color: white;
+    background-image: url("search.png");
+    background-repeat:no-repeat;
+    background-position: 90%;
 }
 
 div [class="card-title"] {
@@ -64,3 +66,7 @@ div [class*="Prominent"] {
 	border: solid black 1px;
 	border-left: solid black 5px;
 }
+.Prominent [class*="font-weight-bold"] {
+	font-size:20px;
+}
+
