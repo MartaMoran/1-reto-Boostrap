@@ -9,11 +9,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>MagNews-About</title>
+    <link rel="stylesheet" href="StylesAbout.css">
   </head>
+  <div class="container-fluid d-none d-md-block mb-5" >
+    <div class="row text-white">
+        <div class="col-md-6 pt-2 d-flex flex-row justify-content-center">
+            <p>New York,NY</p>
+            <img class="img-fluid moon" src="images\icons\icon-night.png">
+            <p>HI 58º LO56º</p>
+            <a class="pl-4 text-white" href="">About</a>
+            <a class="pl-4 pr-3 text-white" href="">Contact</a>
+            <a class="pl-4 text-white"href= "">Sign up</a>
+            <a class="pl-4 text-white" href="">Log in</a>
+        </div>
+        <div  id="SocialNetworks" class="col-md-2 align-items-center offset-md-3">
+            <img class="img-fluid" src="images\logo-facebook.png">
+            <img class="img-fluid" src="images\logo-twitter.png">
+            <img class="img-fluid" src="images\iconfinder_pinterest_306183.png">
+            <img class="img-fluid" src="images\vimeo-icon.png">
+            <img class="img-fluid" src="images\pngwing.com.png">
+
+        </div>
+    </div>
     <div class="container">
   <body>
     <header>
-        <div class="row">
+        <div class="row mt-5 mb-4">
             <div class="col-6 order-sm-1 order-md-1">
                 <img class="img-fluid" src="images\icons\logo-01.png">
             </div>    
@@ -21,7 +42,7 @@
                 <img class="img-fluid" src="images\banner-01.jpg">
             </div>
             <div class="col-6 col-md-12 order-sm-1 order-md-2">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -70,7 +91,7 @@
         </div>
     </header>
         <div class="row">
-            <div class="col-9">
+            <div class="col-9 mt-3">
                <p>Home > About Us</p>
             </div>
             <div class="col-3"> 
@@ -78,7 +99,7 @@
             </div> 
         </div>
     <section class="mb-5">
-        <h3>About Us</h3>
+        <h3 class="mb-4">About Us</h3>
         <div class="row">
             <div class="col-8">
                 <p>Aliquam ultrices sagittis orci a scelerisque purus semper eget. Eget est lorem ipsum dolor sit. Vitae auctor eu augue ut lectus arcu. Pretium aenean pharetra magna ac placerat vestibulum. Urna nunc id cursus metus aliquam eleifend mi in nulla. Porttitor lacus luctus accumsan tortor posuere. Diam quam nulla porttitor massa id neque. Massa sed elementum tempus egestas sed. Dolor morbi non arcu risus quis varius quam. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Mauris pharetra et ultrices neque ornare aenean euismod.
@@ -87,28 +108,31 @@
                 <p>Dignissim sodales ut eu sem integer vitae. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Lectus nulla at volutpat diam ut venenatis. Sit amet consectetur adipiscing elit ut. Eros in cursus turpis massa tincidunt dui ut ornare. Leo duis ut diam quam nulla porttitor. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper.</p>
             </div>
             <div class="col-4">
-                <div class="border p-2 m-3">
-                    <h5>Popular Post</h5>
+                <div class="p-2 m-3 Prominent">
+                    <p>Popular Post</p>
                 </div>
                 <div class="col-12">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 mb-4">
                         <img class="img-fluid" src="images\post-06.jpg">
                     </div>
                     <div class="col-6">
                          <h6> Donec metus orci, maleusada et nectus vitae</h6>
+                         <p>Music Feb - 17</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mb-4">
                         <img class="img-fluid" src="images\post-07.jpg">
                     </div>
                     <div class="col-6">
                         <h6> Donec metus orci, maleusada et nectus vitae</h6>
+                        <p>Game Feb - 16</p>
                    </div>
-                    <div class="col-4">
+                    <div class="col-4 mb-4">
                         <img class="img-fluid" src="images\post-08.jpg">
                     </div>
                     <div class="col-6">
                         <h6> Donec metus orci, maleusada et nectus vitae</h6>
+                        <p>Celebrity Feb - 12</p>
                    </div>
                 </div>
                 </div>
@@ -116,55 +140,65 @@
 
         </div>
     </section>
-        <footer class="bg-dark mt-5 pt-5">
-            <div class="container-fluid mb-4">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <img class="img-fluid" src="images\icons\logo-02.png">
-                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adiscipling elit.Curabitur tempor magna eget elit efficitur, at accumsan sem placerat. Nulla tellus libero, mattis nec molestie at, facilisis ut turpis.Vestibulum dolor metus, tincidunt eget odio</p>
-                        <p class="text-white">Any Questions? call us on (+1)96 716 6879</p>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="row">
-                            <div class="col-3">
-                                <img class="img-fluid" src="images\popular-post-01.jpg">
-                            </div>
-                            <div class="col-9 text-white">
-                                <h5>Donec metus orci, maleusada et lectus vitae</h5>
-                                <p>Feb 17</p>
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid" src="images\popular-post-02.jpg">
-                            </div>
-                            <div class="col-9 text-white">
-                                <h5>Lorem ipsum loret sit amet,consectetur</h5>
-                                <p>Feb 16</p>
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid" src="images\popular-post-03.jpg">
-                            </div>
-                            <div class="col-9 text-white">
-                                <h5>Suspendisse ectum enin quis imperdiet auctor</h5>
-                                <p>Feb 16</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 d-flex flex-column text-white">
-                        <h5 class="mb-3">Category</h5>
-                            <a class="text-white border-bottom p-2" href="">Fashion(22)</a>
-                            <a class="text-white border-bottom p-2" href="">Technology(29)</a>
-                            <a class="text-white border-bottom p-2" href="">Street Style(15)</a>
-                            <a class="text-white border-bottom p-2" href="">Life Style(28)</a>
-                            <a class="text-white p-2" href="">DIY & crafts(16)</a>
-                    </div>
+  </div>
+  <div class="container-fluid mb-4">
+    <footer class="pt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-3">
+            <img class="img-fluid mb-3" src="images\icons\logo-02.png">
+            <p class="text-white last">Lorem ipsum dolor sit amet, consectetur adiscipling elit.Curabitur tempor magna eget elit efficitur, at accumsan sem placerat. Nulla tellus libero, mattis nec molestie at, facilisis ut turpis.Vestibulum dolor metus, tincidunt eget odio</p>
+            <p class="text-white last">Any Questions? call us on (+1)96 716 6879</p>
+            <div class="d-flex Social">
+                <img class="img-fluid mr-2" src="images\logo-facebook.png">
+                <img class="img-fluid mr-2" src="images\logo-twitter.png">
+                <img class="img-fluid mr-2" src="images\iconfinder_pinterest_306183.png">
+                <img class="img-fluid mr-2" src="images\vimeo-icon.png">
+                <img class="img-fluid mr-2" src="images\pngwing.com.png">
+            </div>
+        </div>
+        <div class="col-12 col-md-3">
+            <p  id="post" class="mb-3 text-white mt-4">Popular Post</p>
+            <div class="row">
+                <div class="col-3 mb-2">
+                    <img class="img-fluid" src="images\popular-post-01.jpg">
+                </div>
+                <div class="col-9 mb-2 text-white">
+                    <h6>Donec metus orci, maleusada et lectus vitae</h6>
+                    <p class="last">Feb 17</p>
+                </div>
+                <div class="col-3 mb-2">
+                    <img class="img-fluid" src="images\popular-post-02.jpg">
+                </div>
+                <div class="col-9 mb-2 text-white">
+                    <h6>Lorem ipsum loret sit amet,consectetur</h6>
+                    <p class="last">Feb 16</p>
+                </div>
+                <div class="col-3 mb-2">
+                    <img class="img-fluid" src="images\popular-post-03.jpg">
+                </div>
+                <div class="col-9 mb-2 text-white">
+                    <h6>Suspendisse ectum enin quis imperdiet auctor</h6>
+                    <p class="last">Feb 16</p>
                 </div>
             </div>
-            <div class="card-footer text-center">
-                <p class="text-white"> Copyright @ 2018 Colorlib.All rights reserved.</p>
+        </div>
+        <div class="col-12 col-md-3 d-flex flex-column text-white">
+            <h5 class="mt-5 mb-3">Category</h5>
+            <div id="Category" class="d-flex flex-column">
+                <a class="text-white p-2" href="">Fashion(22)</a>
+                <a class="text-white p-2" href="">Technology(29)</a>
+                <a class="text-white p-2" href="">Street Style(15)</a>
+                <a class="text-white p-2" href="">Life Style(28)</a>
+                <a class="text-white p-2" href="">DIY & crafts(16)</a>
             </div>
-        </footer>
-    
+        </div>
     </div>
+
+<div class="card-footer text-center">
+    <p class="text-white"> Copyright @ 2018 Colorlib.All rights reserved.</p>
+</div>
+</div>
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

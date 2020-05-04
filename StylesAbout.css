@@ -1,0 +1,70 @@
+*{
+	font-size:14px;
+}
+div[class="row text-white"]{
+	background-color: black;
+
+}
+
+a[ class*=pl-4] {
+	font-size:12px;
+}
+div [class*="img-fluid moon"] {
+	width: 15px;
+	height: 15px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+div #SocialNetworks [src$=".png"]{
+	width: 20px;
+	margin-top:10px;
+}
+
+div [placeholder="Search"] {
+	border-radius:30px;
+    border:solid grey 1px;
+    width: 200px;
+	height: 40px;
+	background-color: white;
+    background-image: url("search.png");
+    background-repeat:no-repeat;
+    background-position: 90%;
+}
+
+div [class*="Prominent"] {
+	border: solid black 1px;
+	border-left: solid black 5px;
+}
+
+footer{
+	background-color: rgb(26, 24, 24);
+	
+}
+
+footer [class*="text-white"] {
+	font-size: 12px;
+	
+}
+
+footer [class*="last"] {
+	font-size:12px
+}
+
+footer [class*="card-footer text-center"] {
+	background-color: black;
+}
+#post {
+	font-size:18px;
+	padding-bottom:10px;
+}
+footer [class*="Social"] {
+	width:20px;
+	height: 20px;
+	margin-top: 30px;
+}
+#Category [class*="text-white"] {
+	border-bottom: solid grey 1px;
+	width: 200px;
+}
